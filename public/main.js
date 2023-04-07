@@ -1,0 +1,1 @@
+(async o=>{const e=await fetch("https://jsonplaceholder.typicode.com/todos"),t=await e.json();console.log(t),(o=>{for(let e=0;e<5;e++){const t=document.createElement("h2");t.innerText=o[e].title,console.log(t),document.body.appendChild(t)}})(t)})();
